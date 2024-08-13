@@ -20,14 +20,14 @@
 
 <div align="center">
 
-### Manual Tecnico 📌
+# Manual Tecnico 📌
 
 <div/>
 
 ----
 <div align="center">
 
-#### Configuración VPCs
+## 1. Configuración VPCs
 </div>
 
 ---
@@ -162,3 +162,45 @@
 </div>
 
 ---
+
+## 2. Pings entre los hosts
+
+---
+
+<div align="center">
+    <p style="font-family: 'Arial', sans-serif;">1. Se realizó ping del computador PC-5 (Atencion al cliente) del nivel 1 al computador del Nivel 3 PC-1 (Recepcion).</p>
+    <img src="./img/Host1.png">
+</div>
+
+---
+
+<div align="center">
+    <p style="font-family: 'Arial', sans-serif;">2. Se realizó ping del computador PC-11 (Recursos Humanos) del nivel 1 al computador del Nivel 2 PC-21 (Oficina - A).</p>
+    <img src="./img/Host2.png">
+</div>
+
+---
+
+<div align="center">
+    <p style="font-family: 'Arial', sans-serif;">3. Se realizó ping del computador PC-37 (Ventas) del nivel 3 al computador del Nivel 2 PC-24 (Oficina - B).</p>
+    <img src="./img/Host3.png">
+</div>
+
+---
+
+<div align="center">
+    <p style="font-family: 'Arial', sans-serif;">4. Se realizó ping del computador PC-30 (Oficina C) del nivel 2 al computador del Nivel 1 PC-2 (Gerencia).</p>
+    <img src="./img/Host4.png">
+</div>
+
+---
+
+<div align="center">
+    <p style="font-family: 'Arial', sans-serif;">5. Se realizó ping del computador PC-33 (Recepcion) del nivel 3 al computador del Nivel 1 PC-4 (Atencion al Cliente).</p>
+    <img src="./img/Host5.png">
+</div>s
+
+---
+
+
+
