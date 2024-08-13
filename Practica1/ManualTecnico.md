@@ -198,9 +198,36 @@
 <div align="center">
     <p style="font-family: 'Arial', sans-serif;">5. Se realizó ping del computador PC-33 (Recepcion) del nivel 3 al computador del Nivel 1 PC-4 (Atencion al Cliente).</p>
     <img src="./img/Host5.png">
-</div>s
+</div>
 
 ---
 
+## 3. Envio de Paquete ARP
+
+---
+
+<div align="center">
+    <p style="font-family: 'Arial', sans-serif;">
+    Para el envio de un paquete ARP si usará el modo simulacion que nos ofrece Cisco Packet Tracer.
+    </p>
+    <p style="font-family: 'Arial', sans-serif;">
+    Se enviará un paquete del PC-3 (Secretaria) nivel 1 al PC-26 (Oficina B) nivel 2.
+    </p>
+</div>
+
+---
+
+<div align="center">
+    <img src="./img/sent.png">
+    <p style="font-family: 'Arial', sans-serif;">
+    Identificacion de la direcion MAC del destinatario.
+    </p>
+    <img src="./img/received.png">
+    <p style="font-family: 'Arial', sans-serif;">
+    Envio exitoso del paquete a la direccion MAC identificada.
+    </p>
+</div>
+
+---
 
 
