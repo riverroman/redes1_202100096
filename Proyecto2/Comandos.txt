@@ -1,0 +1,50 @@
+192.168.XX.0/24 -> Grupo = 12
+
+Creacion de vlnas
+vlan 26 
+name [nombre vlan]
+
+
+Dar acceso a las vlans desde el switch
+
+int fa0/11
+switchport mode access
+switch access vlan [numero]
+no shutdown
+exit
+write memory
+
+Modo truncal
+
+enable
+config
+int fa0/[numero]
+switchport mode trunk
+switchport trunk allowed vlan 16,26,36,46
+vtp mode client
+vtp domain QUICHE
+vtp password 1234
+exit
+wr
+
+show interfaces trunk
+
+ --
+
+
+Switch(config)#int fa0/11
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 16
+Switch(config-if)#no shutdown
+Switch(config-if)#int fa0/12
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 26
+Switch(config-if)#no shutdown
+Switch(config-if)#int fa0/13
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 36
+Switch(config-if)#no shutdown
+Switch(config-if)#int fa0/14
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 46
+Switch(config-if)#no shutdown
